@@ -1,14 +1,19 @@
-﻿using System.Diagnostics;
-namespace Codelab1.Console
+﻿using System;
+using System.Diagnostics;
+namespace TrabalhoUm.Console
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            System.Console.WriteLine(Constantes.HelloWorldMsg);
+            while (true)
+            {
+                System.Console.WriteLine(Constantes.HelloWorldMsg);
+                System.Console.Write(Menu.EscreverMenuString());
+                int.TryParse(System.Console.ReadLine(), out int acao);
 
-            ExternalCaller.RunCalculator();
-            ExternalCaller.RunBrowser("https://google.com");
+                Menu.ExecutarAcao(acao);
+            }
         }
     }
 }

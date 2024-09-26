@@ -1,6 +1,6 @@
 ﻿///esta é a classe que gera o menu
 
-using Codelab1.Console;
+using TrabalhoUm.Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,11 +13,13 @@ namespace TrabalhoUm.Console
     {
         public static string EscreverMenuString()
         {
-            var menu = "-------- Utils Project --------" +
-                       " 1 - Abrir calculadora " +
-                       " 2 - Abrir navegador " +
-                       " 3 - Abrir Bloco de notas" +
-                       " 4 - Sair ";
+            var menu = @"
+-------- Utils Project --------
+1 - Abrir calculadora 
+2 - Abrir navegador
+3 - Abrir Bloco de notas
+4 - Sair 
+";
             return menu;
         }
         public static void ExecutarAcao(int acao)
@@ -33,7 +35,7 @@ namespace TrabalhoUm.Console
                     break;
 
                 case 3:
-                    //To do
+                    ExternalCaller.RunNotepad();
                     break;
 
                 case 4:
