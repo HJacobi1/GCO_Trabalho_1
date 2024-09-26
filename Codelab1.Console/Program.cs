@@ -5,7 +5,7 @@ namespace Codelab1.Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine(Constantes.HelloWorldMsg);
+            System.Console.WriteLine(Constantes.HelloWorldMsgJp);
 
             ExternalCaller.RunCalculator();
             ExternalCaller.RunBrowser("https://google.com");
