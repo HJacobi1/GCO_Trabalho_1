@@ -25,5 +25,9 @@ namespace Codelab1.Console
                 UseShellExecute = true
             });
         }
+        public static void RunNotepad()
+        {
+            Process.Start("notepad.exe");
+        }
     }
 }
