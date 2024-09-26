@@ -1,4 +1,6 @@
-﻿using Codelab1.Console;
+﻿///esta é a classe que gera o menu
+
+using Codelab1.Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;
