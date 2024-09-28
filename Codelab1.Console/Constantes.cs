@@ -1,4 +1,4 @@
-﻿namespace Codelab1.Console
+﻿namespace TrabalhoUm.Console
 {
     internal class Constantes
     {
