@@ -1,4 +1,5 @@
-﻿using System;
+﻿///Classe principal com a chamada do menu
+using System;
 using System.Diagnostics;
 namespace TrabalhoUm.Console
 {
