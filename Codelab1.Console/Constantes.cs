@@ -4,5 +4,6 @@
     {
         public const String HelloWorldMsg = "Hello World!";
         public const String HelloWorldMsgPtbr = "Olá Mundo";
+        public const String HelloWorldMsgFlnds = "Hei maailma";
     }
 }
