@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Codelab1.Console
+namespace TrabalhoUm.Console
 {
     public static class ExternalCaller
     {
@@ -24,6 +24,10 @@ namespace Codelab1.Console
                 FileName = url,
                 UseShellExecute = true
             });
+        }
+        public static void RunNotepad()
+        {
+            Process.Start("notepad.exe");
         }
     }
 }
