@@ -14,7 +14,7 @@ namespace TrabalhoUm.Console
                 System.Console.Write(Menu.EscreverMenuString());
                 int.TryParse(System.Console.ReadLine(), out int acao);
               
-            System.Console.WriteLine(Constantes.HelloWorldMsgJp);
+            System.Console.WriteLine(Constantes.HelloWorldMsgPtbr);
 
 
                 Menu.ExecutarAcao(acao);
