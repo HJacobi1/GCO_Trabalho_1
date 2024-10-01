@@ -17,3 +17,9 @@ Abre o navegador padrão com a URL "_https://google.com/_".
 <hr/>
 
 Para executar o código é necessário abrir a solution utilizando o Visual Studio (recomendamos a versão 2022) com .NET 6.0 instalado.
+
+<hr/>
+
+## Fluxo de desenvolvimento
+
+![GCo fluxo](https://github.com/user-attachments/assets/9b4e7454-a77e-4754-875e-78fe392b54ba)
